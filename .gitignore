@@ -1,0 +1,42 @@
+# Python & Jupyter best practices .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+bin/
+lib/
+lib64/
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Dataset files
+*.csv
+*.h5
+*.npy
+
+# Logs
+*.log
+
+# HTML files
+*.html
+
+# Other files
+*.db
+*.sqlite
+*.pkl
+
+# Virtual environments
+venv/
